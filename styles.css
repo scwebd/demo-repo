@@ -1,5 +1,5 @@
 * {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 h1 {
 	color: green;
@@ -7,4 +7,27 @@ h1 {
 }
 p {
 	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	border: 1px solid #9c9c9c;
+	border-spacing: 0;
+	width: 1200px;
+}
+
+thead td {
+	background-color: #9c9c9c;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+
+tbody td {
+	padding: 10px;
+}
+
+tbody tr:nth-child(even) td {
+	background-color: #e3e3e3;
+	font-family: Arial, Helvetica, sans-serif;
 }
